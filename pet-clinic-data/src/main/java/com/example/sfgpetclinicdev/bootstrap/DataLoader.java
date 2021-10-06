@@ -6,7 +6,9 @@ import com.example.sfgpetclinicdev.services.OwnerService;
 import com.example.sfgpetclinicdev.services.PetService;
 import com.example.sfgpetclinicdev.services.VetService;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
 
+@Component
 public class DataLoader implements CommandLineRunner {
     private final OwnerService ownerService;
     private final PetService petService;
